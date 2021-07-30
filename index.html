@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .first-image img{
+            height: 450px;
+        }
+        .three-images img{
+            height: 250px;
+        }
+        .last-image img{
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center m-5">Vacation Nested Row</h1>
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-lg-4 first-image">
+                <img class="img-fluid" src="images/sunset.png" alt="">
+            </div>
+            <div class="col-lg-8">
+                <div class="row g-0 three-images">
+                    <div class="col-lg-4">
+                        <img src="images/boat.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/beach.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/coconut.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row g-0 last-image">
+                    <img src="images/sand.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
